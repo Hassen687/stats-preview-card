@@ -75,3 +75,29 @@ footer {
     margin-top: 50px;
     font-size: 15px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .left-elements {
+        padding: 20px O;
+        max-widht: 100%;
+    }
+}
+
